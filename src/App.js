@@ -5,7 +5,6 @@ const users_list = [
   { name: "Kinga", surname: "Kowalczyk" },
   { name: "Oliver", surname: "Szymański" },
 ];
-console.log(users_list);
 
 function App() {
   return (
