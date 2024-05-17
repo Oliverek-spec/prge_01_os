@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import "./Home.css";
 import plan_wat from "./plan_wat.jpg";
@@ -17,7 +18,10 @@ function Home({ tekst }) {
         <div className="home_subtitle">
           Strona internetowa z interaktywną mapą
         </div>
-        <button className="home_button">WCHODZĘ</button>
+
+        <Link to="services">
+          <button className="home_button">WCHODZĘ</button>
+        </Link>
       </div>
     </div>
   );

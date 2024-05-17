@@ -1,0 +1,43 @@
+.services_title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-left: 60px;
+  background-color: aqua;
+}
+
+.services_options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: orange;
+}
+
+.services_button_map {
+  padding: 10px;
+  background-color: red;
+}
+.services_button_map:hover {
+  background-color: blue;
+  border-color: burlywood;
+}
+
+.services_button_database {
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+}
+.services_button_database:hover {
+  background-color: blue;
+  border-color: burlywood;
+}
+
+.services_gallery {
+  background-color: brown;
+  width: 300px;
+  height: 300px;
+  margin: 100px 50px;
+}
