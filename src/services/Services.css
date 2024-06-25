@@ -1,3 +1,6 @@
+.services {
+}
+
 .services_title {
   display: flex;
   justify-content: flex-start;
@@ -5,39 +8,38 @@
   font-weight: 600;
   margin-top: 60px;
   margin-left: 60px;
-  background-color: aqua;
 }
 
-.services_options {
+.services_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.services_option {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: orange;
+  margin: 25px;
 }
 
-.services_button_map {
-  padding: 10px;
-  background-color: red;
-}
-.services_button_map:hover {
-  background-color: blue;
-  border-color: burlywood;
-}
-
-.services_button_database {
-  padding: 10px;
-  margin: 10px;
-  background-color: red;
-}
-.services_button_database:hover {
-  background-color: blue;
-  border-color: burlywood;
+.services_option_obj {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
-.services_gallery {
-  background-color: brown;
+.services_images {
   width: 300px;
   height: 300px;
   margin: 100px 50px;
+}
+
+.services_img {
+  width: 300px;
+  height: 300px;
 }

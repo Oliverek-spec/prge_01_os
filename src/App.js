@@ -1,25 +1,25 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
-import Home from "./components/home/Home";
-import Services from "./services/Services";
-import Map from "./map/map";
-import Dashboard from "./dashboard/Dashboard";
+import Home from "./components/home/Home.js";
+import Services from "./services/Services.js";
+import Map from "./map/map.js";
+import Dashboard from "./dashboard/Dashboard.js";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const Router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home text={"Hello World"} />,
   },
   {
     path: "/services",
     element: <Services />,
   },
   {
-    path: "/services/map",
+    path: "/map",
     element: <Map />,
   },
   {
-    path: "/services/dashboard",
+    path: "/dashboard",
     element: <Dashboard />,
   },
 ]);
